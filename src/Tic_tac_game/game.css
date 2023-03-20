@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+  .row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .game_container {
+    margin: 20px;
+  }
+}

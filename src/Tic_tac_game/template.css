@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+  .template_container {
+    border: 1px solid;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
